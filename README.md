@@ -13,3 +13,6 @@ Project about a website to find like minded players
 * git commit -m "what have you done"
 * git pull
 * git push
+
+##GIT GUI
+https://www.gitkraken.com/ - might be worth a try

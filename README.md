@@ -10,7 +10,6 @@ The purpose of the website is to provide support for gamers around the globe to 
 * Daniel Schaberreiter
 * ...others might follow!
 
-
 ## Motivation
 
 There are a lot of games out there where it is hard to find a proper group to have some good time, or in the worst case there isn't even a possibilty of creating a group and you get a randomized group with gamers of different skill levels. That's what this website is all about, providing a platform to exchange information to be able to create groups on your own.
@@ -18,12 +17,6 @@ There are a lot of games out there where it is hard to find a proper group to ha
 ## Installation
 
 under construction!
-
-## Contributors
-
-* Alexander Hofbauer
-* Daniel Schaberreiter
-* ...others might follow!
 
 ##GIT Basics
 

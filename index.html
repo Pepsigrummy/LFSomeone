@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="author" content="Daniel Schaberreiter">
+
+      <title>LFSomeone - First Impression</title>
+
+      <!-- Bootstrap Core CSS -->
+      <link href="css/bootstrap.css" rel="stylesheet">
+
+      <!-- Custom CSS -->
+      <link href="css/main.css" rel="stylesheet">
+      <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+      <!-- Page Content -->
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12 text-center">
+                  <h1 id="header">First Impression</h1>
+                  <p class="lead">That's how the landing page could look like!</p>
+                  <p class="lead">It's also responsive, try it!</p>
+                  <ul class="list-unstyled">
+                      <li>Bootstrap v3.3.7</li>
+                      <li>jQuery v1.11.1</li>
+                      <br>
+                  </ul>
+              </div>
+          </div> <!-- /.row #1-->
+
+          <div class="row">
+            <div class="col-md-6">
+
+              <div class="form"> <!-- SignUp/Login Form -->
+                <ul class="tab-group">
+                  <li class="tab active"><a href="#signup">Sign Up</a></li>
+                  <li class="tab"><a href="#login">Log In</a></li>
+                </ul>
+
+                    <div class="tab-content">
+
+                      <div id="signup">
+                        <h2>Sign Up for Free!</h2>
+
+                        <form action="/" method="post">
+                          <div class="field-wrap">
+                            <label>
+                              Username<span class="req">*</span>
+                            </label>
+                            <input type="text"required autocomplete="off"/>
+                          </div>
+
+                          <div class="field-wrap">
+                            <label>
+                              Email Address<span class="req">*</span>
+                            </label>
+                            <input type="email"required autocomplete="off"/>
+                          </div>
+
+                          <div class="field-wrap">
+                            <label>
+                              Password<span class="req">*</span>
+                            </label>
+                            <input type="password"required autocomplete="off"/>
+                          </div>
+
+                          <button type="submit" class="button button-block"/>Get Started</button>
+                        </form>
+                      </div> <!-- /signup -->
+
+                      <div id="login">
+                        <h2>Welcome Back!</h2>
+
+                        <form action="/" method="post">
+                          <div class="field-wrap">
+                            <label>
+                              Email Address<span class="req">*</span>
+                            </label>
+                            <input type="email"required autocomplete="off"/>
+                          </div>
+
+                          <div class="field-wrap">
+                            <label>
+                              Password<span class="req">*</span>
+                            </label>
+                            <input type="password"required autocomplete="off"/>
+                          </div>
+
+                          <p class="forgot"><a href="#">Forgot Password?</a></p>
+
+                          <button class="button button-block"/>Log In</button>
+                        </form>
+                      </div> <!-- /login -->
+                    </div><!-- tab-content -->
+                  </div> <!-- /form -->
+                </div>
+
+              <div class="col-md-6">
+                <div class="counter">
+
+                  <ul class="tab-group">
+                      <li class="licounter"><p>Online users: <span style="bold"> 999+ </span>(Datenbankabfrage)</p></li>
+                      <li class="licounter"><p>Active groups: <span style="bold"> 123 </span>(Datenbankabfrage)</p></li>
+                  </ul>
+
+              </div>
+          </div> <!-- /.row #2-->
+      </div> <!-- /.container -->
+
+      <!-- jQuery Version 1.11.1 -->
+      <script src="js/jquery.js"></script>
+      <script src="js/login.js"></script>
+      <!-- Bootstrap Core JavaScript -->
+      <script src="js/bootstrap.js"></script>
+  </body>
+</html>
